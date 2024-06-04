@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(#aaa1c8, #8d768d, #967aa1);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 50px;
+    height: 100vh;
+}
+
+.card{
+    border: 2px solid #8d768d;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    padding: 35px;
+    background: radial-gradient(#0004, #0004);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% );
+}
+
+.perfil img{
+    border: 1px solid #c8a2c8;
+    border-radius: 65%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    box-shadow: 0 0 5px;
+}
+
+.perfil h1{
+    font-size: 30px;
+    color: #FAF9F6;
+}
+
+.perfil p{
+    color: #FAF9F6;
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+}
+
+.redes a{
+    color: #FAF9F6;
+    text-decoration: none;
+    border: 2px solid #c8a2c8;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: linear-gradient(#0004, #fff4);
+}
+
+.minibio{
+    border: 2px solid #c8a2c8;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#fff4, #0004);
+    color: #FAF9F6;
+    max-width: 400px;
+    margin: 0 auto;
+}
