@@ -7,12 +7,12 @@ body{
 }
 
 .card{
-    border: 2px solid #8d768d;
+    border: 2px solid #c8a2c8;
     border-radius: 20px;
     width: 400px;
     text-align: center;
     padding: 35px;
-    background: linear-gradient(#c8a2c8, #81638b);
+    background: linear-gradient(#c8a2c8, #bb94c0);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -20,43 +20,43 @@ body{
 }
 
 .perfil img{
-    border: 1px solid #c8a2c8;
-    border-radius: 65%;
-    width: 140px;
-    height: 140px;
+    border: 3px solid #c8a2c8;
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    box-shadow: 0 0 5px;
+    box-shadow: 0 0 10px #967aa1;
 }
 
 .perfil h1{
     font-size: 30px;
-    color: #FAF9F6;
+    color: #ece6eb;
 }
 
 .perfil p{
-    color: #FAF9F6;
+    color: #ece6eb;
 }
 .redes{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 }
 
 .redes a{
-    color: #FAF9F6;
+    color: #ece6eb;
     text-decoration: none;
     border: 2px solid #c8a2c8;
     padding: 0.5rem;
     border-radius: 10px;
-    background: linear-gradient(#0004, #fff4);
+    background: linear-gradient(#aaa1c8, #cca1c9);
 }
 
 .minibio{
     border: 2px solid #c8a2c8;
     padding: 10px;
     border-radius: 10px;
-    background: linear-gradient(#fff4, #81638b);
-    color: #FAF9F6;
+    background: linear-gradient(#aaa1c8, #cca1c9);
+    color: #ece6eb;
     max-width: 400px;
     margin: 0 auto;
 }
