@@ -4,7 +4,7 @@ body {
     font-size: 15px;
     font-weight: 50px;
     height: 100vh;
-}
+    }
 
 .card {
     border: 2px solid #fbc2eb;
@@ -17,6 +17,8 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    backdrop-filter: revert;
+    box-decoration-break: #c8a2c8;
 }
 
 .perfil img {
@@ -50,14 +52,13 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     background: linear-gradient(top, #a18cd1 50%, #fbc2eb 100%);
-
 }
 
 .minibio {
     border: 2px solid #fbc2eb;
     padding: 10px;
     border-radius: 10px;
-    background: linear-gradient(top, #a18cd1 50%, #fbc2eb 100%);
+    background: linear-gradient(top, #a18cd1 100%, #fbc2eb 50%);
     color: #F9F1F1;
     max-width: 400px;
     margin: 0 auto;
