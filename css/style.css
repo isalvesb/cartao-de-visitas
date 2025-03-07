@@ -1,8 +1,9 @@
 body {
-    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    font-weight: 50px;
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+    font-family: "Crimson Text", serif;
+    font-size: 16px;
+    font-weight: 400px;
+    font-style: normal;
     height: 100vh;
     background-attachment: fixed;
     display: flex;
@@ -12,13 +13,12 @@ body {
 }
 
 .card {
-    border: 2px solid #c8a2c8;
+    border: 2px solid #a18cd1;
     border-radius: 20px;
     width: 460px;
     text-align: center;
     padding: 35px;
-    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
-    #f6f3ff 100%);
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -27,7 +27,7 @@ body {
 }
 
 .perfil img {
-    border: 1px solid #c8a2c8;
+    border: 1px solid #a18cd1;
     border-radius: 65%;
     width: 140px;
     height: 140px;
@@ -38,11 +38,16 @@ body {
 .perfil h1 {
     font-size: 30px;
     color: #FAF9F6;
+    font-weight: 700;
 }
 
 .perfil p {
     color: #FAF9F6;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
 }
+
 
 .redes {
     display: flex;
@@ -54,10 +59,10 @@ body {
 .redes a {
     color: #FAF9F6;
     text-decoration: none;
-    border: 2px solid #c8a2c8;
+    border: 2px solid #a18cd1;
     padding: 0.5rem;
     border-radius: 10px;
-    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
 }
 
 .redes:hover {
@@ -66,10 +71,10 @@ body {
 }
 
 .minibio {
-    border: 2px solid #c8a2c8;
+    border: 2px solid #a18cd1;
     padding: 15px;
     border-radius: 10px;
-    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
     color: #FAF9F6;
     max-width: 460px;
     margin: 8px;
