@@ -1,10 +1,22 @@
+@media screen and (max-width: 410px) {
+    body {
+        display: none;
+        margin: 100px;
+        
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
     font-family: "Crimson Text", serif;
     font-size: 16px;
     font-weight: 400px;
     font-style: normal;
-    height: 100vh;
+    height: 110vh;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
@@ -15,11 +27,10 @@ body {
 .card {
     border: 2px solid #a18cd1;
     border-radius: 20px;
-    width: 460px;
+    width: 500px;
     text-align: center;
-    margin: 30px auto;
+    margin: 40px auto;
     padding: 35px;
-    box-sizing: border-box;
     background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
     position: absolute;
     left: 50%;
@@ -60,15 +71,17 @@ body {
 .redes a {
     color: #FAF9F6;
     text-decoration: none;
-    border: 2px solid #a18cd1;
+    border: 2px solid #7474b0;
     padding: 0.5rem;
     border-radius: 10px;
-    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+    background-color: #7474b0;
 }
 
-.redes:hover {
+.redes a:hover {
     transform: translateY(-5px);
     cursor: pointer;
+    background-color: transparent;
+    color: #FAF9F6;
 }
 
 .minibio {
