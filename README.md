@@ -8,7 +8,7 @@ Cartão de visitas feito na MasterClass "Programação Web com JavaScript" minis
 ## 🛠️ Tecnologias utilizadas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-rounded&logo=html5&logoColor=white) → Estruturação da página <br>
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7?style=flat-rounded&logo=fontawesome&logoColor=white) → Inserção dos ícones na página <br>
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-rounded&logo=css3&logoColor=white) → Estilização da página <br>
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-rounded&logo=css&logoColor=white) → Estilização da página <br>
 
 
 
